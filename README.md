@@ -8,7 +8,7 @@ DeliveryLOG
 
 <hr>
 
-## Teconologias utilizadas
+## Tecnologias utilizadas
 
 - [React](https://expressjs.com/pt-br/)
 - [TypeScript](https://nodejs.org/en/)
@@ -26,8 +26,15 @@ REACT_APP_ACCESS_TOKEN_MAP_BOX=
 
 2. Run the development server:
 
+1º rode o comando: 
+```bash
+npm install
+# ou
+yarn
+```
+
 ```bash
 npm start
-# or
+# ou
 yarn start
 ```
