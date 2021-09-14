@@ -61,7 +61,7 @@ function App() {
     const response = await fetchLocalMapBox(inputValue);
     let places: any = [];
     if (inputValue.length < 5) return;
-    response.features.map((item: any) => {
+    response.features.forEach((item: any) => {
       places.push({
         label: item.place_name,
         value: item.place_name,
@@ -133,7 +133,7 @@ function App() {
                 placeholder="Digite seu endereço"
                 classNamePrefix="filter"
                 cacheOptions
-                /* loadOptions={loadOptions} */                
+                loadoptions={loadOptions}                
                 onChange={handleChangeSelect}
                 value={address}
               />
