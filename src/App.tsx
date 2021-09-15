@@ -5,13 +5,13 @@ import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import Leaflet from "leaflet";
 import { v4 as uuidv4 } from "uuid";
 
-import { fetchLocalMapBox } from "./apiMapBox";
+import { fetchLocalMapBox } from "./api/apiMapBox";
 import AsyncSelect from "react-select/async";
 
-import mapPackage from "./package.svg";
-import mapPin from "./pin.svg";
+import mapPackage from "./images/package.svg";
+import mapPin from "./images/pin.svg";
 
-import "./App.css";
+import "./styles/App.css";
 
 const initialPosition = { lat: -25.3886831, lng: -49.2334693 };
 
