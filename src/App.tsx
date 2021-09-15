@@ -153,6 +153,9 @@ function App() {
           <button className="confirm-button" type="submit">
             Confirmar
           </button>
+          <button className="cancel-button" type="reset">
+            Cancelar
+          </button>          
         </form>
       </main>
 

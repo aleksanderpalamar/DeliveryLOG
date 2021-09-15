@@ -87,7 +87,26 @@ form.landing-page-form button.confirm-button {
   transition: background-color 0.2s;
 }
 
+form.landing-page-form button.cancel-button {
+  margin-top: 34px;
+
+  width: 100%;
+  height: 64px;
+  border: 0;
+  cursor: pointer;
+  background-color: #4254f5;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: 800;
+
+  transition: background-color 0.2s;
+}
+
 form.landing-page-form button.confirm-button:hover {
+  background-color: #6c79f5;
+}
+
+form.landing-page-form button.cancel-button:hover {
   background-color: #6c79f5;
 }
 
